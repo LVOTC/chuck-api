@@ -6,7 +6,12 @@
         <link rel="stylesheet" href="app.css">
     </head>
     <body>
-
+        <form action="https://mailthis.to/luk.vaicekauskas@mail.com"
+            method="POST">
+            <input type="text" name="name" placeholder="Your name">
+            <input type="email" name="_replyto" placeholder="Your email">
+            <input type="submit" value="Send">
+        </form>
         <h2 id="joke"></h2>
         <select name="categories">
             <option value="disabled">Choose category</option>
